@@ -8,6 +8,7 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm install
+RUN npm install nodemon
 
 # Install PM2 globally
 RUN npm install -g pm2
